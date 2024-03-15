@@ -1,4 +1,4 @@
-param ( [string]$message = "")
+param ( [string]$message = "my message")
 
 git add $HOME/Downloads/hello_world.txt
 git commit -m $message
