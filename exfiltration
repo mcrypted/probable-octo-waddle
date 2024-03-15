@@ -1,0 +1,5 @@
+param ( [string]$message = "")
+
+git add $HOME/Downloads/hello_world.txt
+git commit -m $message
+git push
